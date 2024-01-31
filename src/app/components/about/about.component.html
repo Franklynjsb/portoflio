@@ -1,0 +1,32 @@
+<!-- <div class="about-container">
+        <table class="table">
+            <td>
+                <img class="img" src="'src\assets\img\EditCV.jpg'" alt="">
+            </td>
+            <td>
+                <div class="presentation">
+                    <h1 class="name text-center">{{ nombrePersona }}</h1>
+                    <p class="title">Full Stack Developer Junior (Back-end)</p>
+                    <p>{{ descriptionPersona }}</p>
+                    <table class="socials">
+                        <td><i class="bi bi-linkedin"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </table>
+                </div>
+            </td>
+    </table>
+</div>
+ -->
+<div class="about-container row">
+    <div class="d-flex flex wrap">
+        <img [src]=aboutData.urlImage class="img-about img-fluid" alt="about image" width="250">
+        <div class="text-about d-flex flex-column justify-content-center">
+            <h5>{{ aboutData.title }}</h5>
+            <p class="about-subDescription">{{ aboutData.subDescription }}</p>
+            <p class="about-description">{{ aboutData.description }}</p>
+            <a href=""><i class="bi bi-link-45deg"></i></a>
+        </div>
+    </div>
+</div>

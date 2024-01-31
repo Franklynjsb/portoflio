@@ -1,0 +1,24 @@
+.experience-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.experience-container .img-experience {
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.experience-container .text-experience {
+    margin-left: 3rem;
+    margin-bottom: 7rem;
+}
+.experience-subDescription {
+    margin-bottom: 2rem;
+}
+.experience-container .text-experience h5{
+    font-size: 2.5rem;
+}
+.experience-container .text-experience .experience-description{
+    margin-top: -2rem;
+    font-size: 1.75rem;
+}
